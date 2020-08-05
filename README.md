@@ -1,6 +1,6 @@
 ![D3 Furfur](https://user-images.githubusercontent.com/69269299/89467508-4f32e800-d73b-11ea-92aa-e0d6a1c66a23.png)
 
-### Hi there, I'm Luigui - aka [D3 Furfur][website] 👋
+### Hi there, I'm Luigui - AKA [D3 Furfur][website] 👋
 
 ## I'm a Software Engineer, Developer, and Professional Gamer!
 - 🔭 I’m currently working on a [VS Code Course][website]!
@@ -11,11 +11,11 @@
 
 ### Connect with me:
 
-<img align="left" alt="D3Furfur.com" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" target="_blank"/>[website]
-<img align="left" alt="D3 Furfur | Youtube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" target="_blank" />[youtube]
-<img align="left" alt="D3 Furfur | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" target="_blank" />[twitter]
-<img align="left" alt="D3 Furfur | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" target="_blank"/>[linkedin]
-<img align="left" alt="D3 Furfur | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" target="_blank"/>[instagram]
+[<img align="left" alt="D3Furfur.com" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" target="_blank"/>][website]
+[<img align="left" alt="D3 Furfur | Youtube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" target="_blank" />][youtube]
+[<img align="left" alt="D3 Furfur | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" target="_blank" />][twitter]
+[<img align="left" alt="D3 Furfur | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" target="_blank"/>][linkedin]
+[<img align="left" alt="D3 Furfur | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" target="_blank"/>][instagram]
 
 <br />
 
