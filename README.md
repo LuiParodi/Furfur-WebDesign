@@ -1,5 +1,3 @@
-<img alling="center" src="https://ibb.co/C0qQTgS">
-
 ### Hi there, I'm Luigui - aka [D3 Furfur][website] 👋
 
 ## I'm a Software Engineer, Developer, and Professional Gamer!
