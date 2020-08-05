@@ -1,0 +1,306 @@
+/*Todo archico*/
+* {
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+/*Body*/
+body {
+  background: black;
+  color: white;
+  background-color: #151515;
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 20.5V18H0v-2h20v-2H0v-2h20v-2H0V8h20V6H0V4h20V2H0V0h22v20h2V0h2v20h2V0h2v20h2V0h2v20h2V0h2v20h2v2H20v-1.5zM0 20h2v20H0V20zm4 0h2v20H4V20zm4 0h2v20H8V20zm4 0h2v20h-2V20zm4 0h2v20h-2V20zm4 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2z' fill='%234e4a54' fill-opacity='0.3' fill-rule='evenodd'/%3E%3C/svg%3E");
+  font-size: 16px;
+  font-family: 'Oswald', sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+/*Centrar contenido encabezado*/
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+/*Estilos Navegacion*/
+.nav-main{
+    font-size: 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    padding: 20px 0; 
+}
+
+.nav-logo{    
+    width: 100px;        
+    margin-top: 10px;    
+}
+
+/*Izquierda*/
+.nav-main ul{
+    display: flex;
+}
+
+.nav-main ul li{
+    padding: 10px;
+}
+
+.nav-main ul li a{
+    padding: 6px;
+}
+
+.nav-main ul li a:hover{
+    border-bottom: 2px solid white;
+}
+
+.nav-main ul.nav-menu{
+    flex: 1;
+    margin-left: 20px;
+}
+
+.menu-btn{
+    position: absolute;
+    cursor: pointer;
+    top: 41px;
+    right: 30px;    
+    z-index: 5; 
+    font-size: 1.5em;
+    display: none;
+}
+
+/*Showcase*/
+.showcase{
+    width: 100%;
+    height: 500px;
+    background: url('/img/Showcase.png') no-repeat center center/cover;
+    padding: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.showcase h2,
+.showcase p{
+    margin-bottom: 10px;
+}
+
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: rgb(34, 33, 33);
+    color: white;
+    font-size: 15px;
+    border: 1px solid white;
+    margin: 10px 0px;
+}
+
+.btn:hover{
+    background: black;
+    opacity: 0.9;
+}
+
+/*Espaciados HR*/
+hr{
+    margin: 10px 0px;
+}
+
+/*Noticias*/
+.news-lol{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 10px 0px;
+    gap: 25px;
+}
+
+.news-lol img{
+    width: 100%;
+    height: 180px;
+}
+
+.news-lol h3{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.news-lol a{
+    padding: 10px 0;
+    color: white;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.news-lol a:hover{
+    text-decoration: underline;    
+}
+
+/*Banner Lols*/
+.lol-banner-one{ 
+    width: 100%;
+    height: 350px;
+    background: url('../img/banner.png');
+    margin-bottom: 40px;
+}
+
+.lol-banner-one .content{
+    width: 40%;
+    padding: 90px 0 0 30px;
+    color: white;
+}
+
+.lol-banner-one p,
+.lol-banner-one h2{
+    margin: 10px 0 20px;
+}
+
+/*Banner 2*/
+.lol-banner-two{
+    width: 100%;
+    height: 350px;
+    background: url('../img/banner.png') no-repeat center center/cover;
+    margin-bottom: 40px;
+}
+
+.lol-banner-two .content{
+    width: 40%;
+    padding: 90px 0 0 30px;
+    color: white;
+}
+
+.lol-banner-two p,
+.lol-banner-two h2{
+    margin: 10px 0 20px;
+}
+
+/*Social*/
+.social{
+    margin: 50px;
+}
+
+.social p{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.links{
+    display: flex;
+    text-align: center;
+    justify-content:center; 
+}
+
+.links a{
+    margin: 0 30px;
+}
+
+.links a i{
+    font-size: 3rem;
+}
+
+/*Footer links*/
+.footer-links{
+    background: #2f3640;
+    color: #616161;
+    font-size: 12px;
+    padding: 35px 0;
+}
+
+.footer-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.footer-container ul{
+    margin: 0 auto;
+}
+
+.footer-container ul li{
+    line-height: 2.5;
+}
+
+/*Footer*/
+.footer{
+    background: #2f3640;
+    color: white;
+    font-size: 12px;
+    padding: 20px 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/**RESPONSIVE MEDIA QUERIES**/
+@media (max-width :720px){
+    .nav-main ul.nav-menu{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #2f3640;
+        height: 100%;
+        padding: 30px;
+        opacity: 0.9;
+        transform: translateX(-400px);
+        transition: transform .5s ease-in-out;
+    }
+    .menu-btn{
+        display: block;
+    }
+    .nav-main ul.nav-menu.show{
+        transform: translate(-20px);
+    }
+    .nav-main ul.nav-menu li{
+        padding: 20px;       
+        font-size: 14px;
+    }
+    .news-lol{
+        grid-template-columns: 1fr 1fr;
+    }
+    .nav-main ul.nav-menu-right{
+        margin-right: 20px;
+    }
+    .lol-banner-one .content,
+    .lol-banner-two .content{
+        width: 80%;
+    }
+    .footer-links .footer-container{
+        grid-template-columns: 1fr 1fr;
+    }    
+}
+
+@media (max-width :520px){
+    .news-lol{
+        grid-template-columns: 1fr;
+    }
+    .news-lol img{
+        height: 200px;
+    }    
+    .lol-banner-one .content,
+    .lol-banner-two .content{
+        width: 100%;
+        padding: 50px 20px;
+    }
+    .footer-links .footer-container{
+        grid-template-columns: 1fr 1fr; 
+        font-size: 14px;
+    }
+    .footer h3{
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+}
