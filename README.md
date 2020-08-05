@@ -1,3 +1,5 @@
+![D3 Furfur](https://user-images.githubusercontent.com/69269299/89467508-4f32e800-d73b-11ea-92aa-e0d6a1c66a23.png)
+
 ### Hi there, I'm Luigui - aka [D3 Furfur][website] 👋
 
 ## I'm a Software Engineer, Developer, and Professional Gamer!
